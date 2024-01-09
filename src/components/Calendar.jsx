@@ -20,7 +20,7 @@ const Calendar = () => {
            }) 
 
 
-           fetch('api/events',{
+           fetch('http://localhost:3000/api/events',{
             method: 'Post',
             headers:  {
                 'Content-Type': 'application/json'
